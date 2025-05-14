@@ -20,3 +20,7 @@ steps:
   displayName: 'Installing PowerPlatform Tools'
   inputs:
     DefaultVersion: true
+- task: PowerPlatformWhoAmi@2
+  displayName: 'Installing PowerPlatformWhoAmi'
+  inputs:
+    authenticationType: 'PowerPlatformSPN'
