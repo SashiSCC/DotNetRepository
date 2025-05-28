@@ -24,4 +24,4 @@ steps:
   displayName: 'Installing PowerPlatformWhoAmi'
   inputs:
     authenticationType: 'PowerPlatformSPN'
-    PowerPlatformSPN: ''
+    PowerPlatformSPN: 'SashiSCC'
